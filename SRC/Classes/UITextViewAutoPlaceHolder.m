@@ -110,7 +110,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    self.placeHolderLabel.frame = CGRectMake(self.textContainerInset.left + 3.5, self.textContainerInset.top, self.frame.size.width, self.placeHolderLabel.font.pointSize*1.2);
+    self.placeHolderLabel.frame = CGRectMake(self.textContainerInset.left, self.textContainerInset.top, self.frame.size.width, self.placeHolderLabel.font.lineHeight);
 }
 
 @end
